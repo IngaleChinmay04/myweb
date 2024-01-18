@@ -1,0 +1,351 @@
+
+.navbardiv{
+    text-align: left;
+    width: 100%;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+.navbardiv ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin: 5px;
+    padding: 0px;
+}
+
+.navbardiv ul li{
+   
+    width: 50px;
+    margin: 10px ;
+    padding: 5px;
+}
+
+.navbardiv ul li:hover{
+    color: black;
+}
+
+.sublist1{
+    display: none;
+    position: absolute;
+    white-space: nowrap;
+}
+
+.navbardiv ul li:hover .sublist1{
+    display: block;
+}
+
+.sublist1 ul{
+    display: inline-block ;
+    position: absolute;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+.sublist2{
+    display: none;
+}
+
+.hover_me:hover .sublist2{
+    
+    position: absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 150px ;
+
+}
+
+
+.logo{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 350px;
+}
+
+.signinbtn{
+    background-color: black;
+    width: 100px;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.scrollbar{
+    background-color: whitesmoke;
+    overflow: auto;
+    white-space: nowrap;
+}
+.scrollbar a{
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+    color :grey;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.scrollbar a:hover{
+    color: green;
+}
+
+.floatbtn{
+ position: fixed;
+ width: 200px;
+ height: 50px;
+ bottom:50px;
+ right: 80px;
+ padding: 10px;
+ text-align: center;
+ border-radius: 8px;
+ box-shadow: 2px 2px 2px #999;
+ background-color: green;
+ color: white;
+ font-size: 16px;
+ white-space: nowrap;
+}
+
+.welcome{
+    margin: 20px;
+    padding: 50px;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+.background{
+    height: 600px;
+    background-color: #235F64;
+    background-image: linear-gradient(#235F64,white);
+}
+
+.searchdiv{
+    
+    width: 100%;
+    height: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.searchbar{
+    
+    width: 500px;
+    height: 50px;
+    display: flex;
+    
+}
+.searchbar input{
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color:  whitesmoke;
+    flex: 2;
+    border: none;
+    outline: none;
+
+}
+.searchbar button{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: green;
+    font-size: 16px;
+    color: white;
+}
+
+.container{
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    width: 1200px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 1px;
+    display: inline-flex;
+}
+.con1{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+    width: 300px;
+    height: 180px;
+    position: relative;
+    border: 2px solid lightgray;
+}
+.con1 div{
+    margin: 0px;
+    position: absolute;
+    background-color: orange;
+    background-image: linear-gradient(to right,orange,lightgray);
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60px;
+}
+.con1 div b{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    
+}
+.con1 p{
+    margin-top: 50px;
+}
+
+.con1:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.con2{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 300px;
+    height: 180px;
+    position: relative;
+    border: 2px solid lightgray;
+}
+.con2 div{
+    margin: 0px;
+    position: absolute;
+    background-color: #235F64;
+    background-image: linear-gradient(to right,#235F64,lightgray);
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60px;
+}
+.con2 div b{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    
+}
+.con2 p{
+    margin-top: 50px;
+}
+
+.con2:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.con3{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 300px;
+    height: 180px;
+    position: relative;
+    border: 2px solid lightgray;
+}
+.con3 div{
+    margin: 0px;
+    position: absolute;
+    background-color: darkblue;
+    background-image: linear-gradient(to right,darkblue,lightgray);
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60px;
+}
+.con3 div b{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+    
+}
+.con3 p{
+    margin-top: 50px;
+}
+
+.con3:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.buttondiv{
+    margin-top: 40px;
+    margin-left: 560px;
+}
+.buttondiv button{
+    border-radius: 5px;
+    margin: 3px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.2);
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.banner {
+    display: inline-flex;
+    position: relative;
+    width: 1100px;
+    margin-left: 200px;
+    margin-top: -180px;
+    border: 2px solid lightgray;
+    border-radius: 25px;
+  }
+  
+.banner img {
+    top: 25px;
+    width: 600px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.banner div{
+    width: 370px;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.banner div b{
+    font-size: 28px;
+}
+
+.descdiv{
+    display: block;
+}
+
+.desc{
+    word-wrap: normal;
+    line-break: strict;
+    color: gray;
+    align-items: center;
+}
+
+
+  
+ 
+  
